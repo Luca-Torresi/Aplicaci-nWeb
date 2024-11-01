@@ -1,8 +1,10 @@
 import { setInLocalStorage } from "./src/persistence/localStorage";
 import { renderCatergories } from "./src/services/categories";
+import { handleGetProductosToStore } from "./src/views/store";
 import "./style.css";
 
 renderCatergories();
+handleGetProductosToStore();
 
 // ===== PRODUCTOS =====
 
